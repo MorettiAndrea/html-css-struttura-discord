@@ -36,21 +36,21 @@ header {
 header .header-top {
   display: flex;
   justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .header-top > * {
   background-color: #d9a71d;
   border: 1px dashed black;
+  height: 40px;
+  flex: 1 0 0;
 }
 header .header-top .box-logo {
-  flex: 1 0 0;
 }
 header .header-top .box-link {
-  flex: 2 0 0;
-  padding-left: 120px;
-  padding-right: 120px;
-}
-header .header-top .box-login {
-  flex: 1 0 0;
+  padding-top: 5px;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
 .header-bottom {
@@ -58,13 +58,14 @@ header .header-top .box-login {
   height: 300px;
   display: flex;
   justify-content: center;
-  max-width: 100%;
   border: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header-bottom .rettangolo-viola {
   background-color: #ef82ed;
   width: 50%;
-  height: 90%;
-  align-self: center;
+  height: 100%;
+  border: 2px dashed black;
 }
