@@ -91,6 +91,7 @@ header .header-top .box-link {
 
 /* main */
 
+/* prima-terza tabella */
 .top-main * {
   border: 2px dashed black;
 }
@@ -100,3 +101,34 @@ header .header-top .box-link {
 .top-main > .layout-tabella-piccola {
   background-color: #ffbdc6;
 }
+
+/* fine prima-terza tabella */
+
+/* seconda tabella */
+.reverse-table {
+  background-color: #d3d3d3;
+}
+.reverse-table * {
+  border: 2px dashed black;
+}
+
+.reverse-table > .layout-tabella-piccola {
+  background-color: #1e90ff;
+}
+.reverse-table > .layout-tabella-grande {
+  background-color: #ffbdc6;
+}
+/* fine seconda tabella */
+
+/* quarta tabella */
+.gigant-table {
+  background-color: #d3d3d3;
+  height: 1000px;
+}
+.tabella-gigante {
+  width: 1200px;
+  height: 900px;
+  background-color: #218b21;
+  align-self: center;
+}
+/* fine quarta tabella     fine main */
