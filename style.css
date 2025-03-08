@@ -20,11 +20,27 @@ ul {
   border: 2px solid transparent;
 }
 .container {
-  max-width: 1100px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 10px;
   padding-right: 10px;
+}
+.background-tabelle {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.layout-tabella-grande {
+  width: 720px;
+  height: 500px;
+  align-self: center;
+}
+.layout-tabella-piccola {
+  width: 490px;
+  height: 500px;
+  align-self: center;
 }
 /* /utility */
 
@@ -41,12 +57,12 @@ header .header-top {
 }
 .header-top > * {
   background-color: #d9a71d;
-  border: 1px dashed black;
+  border: 2px dashed black;
+  width: 1200px;
   height: 40px;
   flex: 1 0 0;
 }
-header .header-top .box-logo {
-}
+
 header .header-top .box-link {
   padding-top: 5px;
   padding-left: 300px;
@@ -55,17 +71,32 @@ header .header-top .box-link {
 
 .header-bottom {
   background-color: #00018b;
-  height: 300px;
+  height: 500px;
   display: flex;
   justify-content: center;
   border: 1px solid black;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .header-bottom .rettangolo-viola {
   background-color: #ef82ed;
-  width: 50%;
-  height: 100%;
+  width: 900px;
+  height: 400px;
+  align-self: auto;
   border: 2px dashed black;
+}
+
+/* fine header */
+
+/* main */
+
+.top-main * {
+  border: 2px dashed black;
+}
+.top-main > .layout-tabella-grande {
+  background-color: #1e90ff;
+}
+.top-main > .layout-tabella-piccola {
+  background-color: #ffbdc6;
 }
