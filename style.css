@@ -29,19 +29,19 @@ ul {
 }
 .background-tabelle {
   min-height: 580px;
+  padding: 10px 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 0;
 }
 .layout-tabella-grande {
-  width: 720px;
-  height: 500px;
+  min-width: 720px;
+  min-height: 500px;
   align-self: center;
 }
 .layout-tabella-piccola {
-  width: 490px;
-  height: 500px;
+  min-width: 480px;
+  min-height: 500px;
   align-self: center;
 }
 .bottoni {
@@ -69,7 +69,6 @@ header .header-top {
   border: 2px dashed black;
   width: 100%;
   height: 40px;
-  flex: 1 0 0;
   align-self: center;
   padding-top: 5px;
 }
@@ -154,6 +153,9 @@ footer {
 .sectionated-table {
   height: 850px;
   width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 2px solid cadetblue;
+  margin-bottom: 20px;
 }
 
 .sectionated-table > .layout-tabella-grande {
@@ -163,12 +165,13 @@ footer {
   border: 2px dashed black;
 }
 .sectionated-table > .layout-tabella-piccola {
-  width: 220px;
+  width: 210px;
   height: 680px;
   background-color: #20b3aa;
   border: 2px dashed white;
 }
 .footer-bottom {
+  margin-top: 40px;
   width: 1200px;
   height: 80px;
   margin-left: auto;
@@ -176,6 +179,5 @@ footer {
   background-color: #92f3ce;
   display: flex;
   justify-content: space-between;
-  flex: 1 0 0;
   align-items: center;
 }
